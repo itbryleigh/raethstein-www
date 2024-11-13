@@ -1,3 +1,2 @@
-# raethstein-consulting
+Welcome to Raethstein Consulting! 
 
-This is the repository containing files for Raethstein Consulting LLC's website.
