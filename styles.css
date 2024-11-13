@@ -64,7 +64,6 @@ body {
 }
 
 /* end fonts */
-
 h2 {
   color:black;
 }
@@ -101,11 +100,11 @@ h2 {
 }
 
 .logo {
-  height: 2.4rem;
+  height: 3rem;
   width: auto;
   position:absolute;
-  left: 3rem;
-  top: 0.4rem;
+  left: 1.5rem;
+  top: 0.2rem;
 }
 /* End navbar */
 
@@ -146,7 +145,7 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   border-radius: 100%;
-  /* border: 1px solid #00008b; */
+  border: 1px solid #00008b;
 }
 
 .email:hover {
