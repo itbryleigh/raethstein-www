@@ -1,7 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 html {
-  background-color:white;
   font-size: 20px;
 }
+/* Google fonts */
+.playwrite-au-sa {
+  font-family: "Playwrite AU SA", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: bold;
+}
+
+.architects-daughter-regular {
+  font-family: "Architects Daughter", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.alef-regular {
+  font-family: "Alef", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* end fonts */
 
 h2 {
   color:black;
@@ -11,45 +49,27 @@ p {
   color:rgb(55, 53, 59);
 }
 
-h3 {
-  text-decoration:underline;
-}
-
-#example-pic {
-  display:flex;
-  height: 50%;
-  width:50%;
-  margin-left:0px;
-}
-img {
-  width: 100%;
-  display: flex;
-  float:left;
-  margin: 0;
-  margin-bottom: 10px;
-}
-
-#caption {
-  text-align: left;
-  font-size:0.8rem;
-  font-style: italic, bold;
+.anchor {
+  scroll-margin-top: 40px;
 }
 
 /* The navbar */
 .topnav {
+  position: fixed;
+  top: 0px;
   display:flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: right;
   overflow: hidden;
-  background-color: gray;    
-  height:100%;
+  background-color: #ddd;    
   width:100%;
+  border-bottom: 1px solid #00008b;
   }
 
 /* Navbar links */
 .topnav a {
   float:left;
-  color: #f2f2f2;
+  color: #00008b;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -57,19 +77,130 @@ img {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: #5e17eb;;
+  background-color: #00008b;
+  color: #f2f2f2;
 }
 
-.testimonial {
+.welcome {
+  height: 70vh;
+  width: 100%;
+  text-align: center;
+  padding-top: 10rem;
+  background-color: #00008b;
+}
+
+.welcome>hr {
+  border-bottom: 1px solid white;
+  width: 15rem;
+  margin: 5px auto;
+
+}
+
+.welcome>h1 {
+  font-size: 2.5rem;
+  color: #F5F5F5;
+}
+
+.welcome>p {
+  color: #bbb;
+}
+
+.about {
+  padding: 20px 40px;
+  display: block;
+}
+
+.page-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #00008b;
+  font-size: 1.8rem;
+  width: 100%;
+  font-weight: bold;
+}
+
+.about-photo {
+  width: 40%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 60px;
+}
+
+#subtitle {
+  text-align: center;
+  font-weight: bold;
+  margin: 20px 0;
+  font-size: 30px;
+}
+
+.about-text {
+  text-align: justify;
+}
+
+.projects {
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: darkslategray;
+  color: white;
+}
+
+#testimonials, #projects {
+  padding-top: 10px;
+}
+
+.network, .battery, .webinar, .security {
+  height: 100%;
+  width: 46%;
+  text-align: center;
+  margin: 10px 2%;
+}
+
+.project-img {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  border-radius: 10px;
+  object-fit: cover;
+  margin: 10px 0px;
+}
+
+.project-tile {
+  width: 40vw;
+  height: 4.5vh;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonials {
+  margin: 0 40px;
+}
+
+.customer {
   font-size: 0.9rem;
-  font-style: italic;
+  margin-bottom: 15px;
+  text-align: right;
+  padding-top: 10px;
+  color: #5e17eb;
+}
+
+.testimony-divider {
+  width: 80%;
+  margin: 15px auto 15px auto;
+  justify-content: center;
 }
 
 footer {
-  margin-left:auto;
-  margin-right:auto;
-  margin-top:20px;
+  margin-left:auto; 
+  margin-right:auto;        
+  margin-top:20px; 
   margin-bottom:80px;
   width:230px;
   height:115px;
@@ -79,21 +210,20 @@ footer {
 
 #linkedin {
 font-weight: bold;
-margin:20px 0;
+margin:40px 0;
 text-align: center;
+background-color: #00008b;
+padding: 20px 0;
+color: #F5F5F5;
 }
 
 #linkedin a {
   font-weight: 100;
-  color: blue;
+  color: white;
 }
 
 #linkedin a:hover {
-  color:#5e17eb;
-}
-
-footer img {
-  margin:0;
+  color:#87CEFA;
 }
 
 hr {
@@ -103,4 +233,10 @@ hr {
 
 .email a:hover {
   color:#5e17eb;
+}
+
+@media screen and (max-width: 680px) {
+  .project-heading-container {
+      height: 6.5vh;
+  }
 }

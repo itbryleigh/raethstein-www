@@ -1,83 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Raethel Consulting</title>    
+    <title>Raethstein Consulting</title>    
     <meta description="Raethel Consulting LLC provides high quality IT consulting and services for small businesses across North America.">
     <link rel="stylesheet" href="styles.css">
-</head>
-<body>    
-        <img src="images/RC-logo3.png" alt="Raethel Consulting Logo">  
-        <div>
-            <div class="topnav">
-            <a href="#projects" id="project">Common Projects</a>
-            <a href="#testimonials">Testimonials</a>
-            <a href="mailto:bryleigh@raethel.com">Email Me</a>
-           </div>
-    <h2>About Me</h2>
-    <div id="example-pic"><img src="images/example.jpg" alt="Picture of Raethel Consulting"></div>
-    <div id="caption"><caption>Bryleigh Raethel (she/hers), owner and operator of Raethel Consulting LLC</caption></div>
-    <p class="email">I am an IT expert and super geek with 22 years of experience tackling complex IT challenges for small businesses from Dental Offices to Venture Capital firms.  A recent transplant to beautiful North Central Florida, I am excited to establish new customer relationships with socially conscious small businesses and leverage my technical expertise to create a positive impact no matter where your business is based.  With one finger always on the pulse of emerging technologies, I help businesses make wise IT investments to meet their short and long-term goals, prepare for the future, and troubleshoot problems to keep their systems working smoothly and safely.  Common projects tackled by raethel consulting can be found listed below.  Have a different need?  Email me at <a href="mailto:bryleigh@raethel.com">bryleigh@raethel.com</a> with a brief description of your problem / needs and I'll let you know if your problem is right up my alley or if someone else would be a better fit for your needs.</p>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Architects+Daughter&family=Playwrite+AU+SA:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>    
+    <nav id="navbar" class="topnav roboto-medium">
+        <a href="#about" id="about-me">About</a>
+        <a href="#projects" id="project">Common Projects</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="welcome-section" >
+        <div class="welcome">
+            <h1 class="alef-regular">Raethstein Consulting</h1>
+            <hr class="welcome-divider">
+            <p class="poppins-regular">IT for your small business</p>
+        </div>
+    </section>
+    <section id="about" class="anchor">
+        <div class="about">
+            <h1 class="page-heading playwrite-au-sa">About Me</h1>
+            <img alt="picture of Bryleigh Raethstein, owner of Raethstein Consulting, LLC" class="about-photo" src="https://media.licdn.com/dms/image/v2/D5603AQFdjEmW6zxEfw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718475826200?e=1736985600&v=beta&t=Xi_latrphcanEJqXGyYlnK3Lc8TydVQu5xUTpTyxsJ8">
+            <div id="subtitle">
+                <p class="alef-regular">I'm Bryleigh Raethstein (she/hers),</p>
+                <p class="alef-regular"> owner and operator of Raethstein Consulting, LLC.</p>
+            </div>
+            <p class="about-text poppins-regular">I am an IT expert and super geek with 22 years of experience tackling complex IT challenges for small businesses from Dental Offices to Venture Capital firms.  A recent transplant to beautiful North Central Florida, I am excited to establish new customer relationships with socially conscious small businesses and leverage my technical expertise to create a positive impact no matter where your business is based.  With one finger always on the pulse of emerging technologies, I help businesses make wise IT investments to meet their short and long-term goals, prepare for the future, and troubleshoot problems to keep their systems working smoothly and safely.  Common projects tackled by Raethstein Consulting can be found listed below.  Have a different need?  Email me at <a class="email" href="mailto:bryleigh@raethstein.com">bryleigh@raethstein.com</a> with a brief description of your problem / needs and I'll let you know if your problem is right up my alley or if someone else would be a better fit for your needs.</p>
+        </div>
+    </section>
     <hr>
-    <h2 id="projects">Common Projects</h2>
-        <h3 id="network">Small Business Network Modernization</h3>
-        <p>I've helped many small businesses and high end home-offices completely modernize their network infrastructure.
+    <section id="projects" class="anchor">
+    <h2 class="page-heading playwrite-au-sa">Common Projects</h2>
+    <div class="projects">
+    <div class="network">
+        <div class="project-tile poppins-regular">
+            <h3 id="network">Small Business Network Modernization</h3>
+        </div>
+        <a href="#"><img alt="illustration of a network" class="project-img" src="https://cdn.pixabay.com/photo/2023/05/31/06/54/ai-generated-8030644_1280.jpg" /></a>
+        <!-- <p>I've helped many small businesses and high end home-offices completely modernize their network infrastructure.
             <ul>
                 <li>Migrate data to secure cloud</li>
                 <li>Configure redundant cloud back-ups</li>
                 <li>Replace aging desktop PCs with ugraded monitors, hotdesk work stations with docking stations for current generation laptops with ergonomic devices for all employees</li>
                 <li>Upgrade your network to the best equipment for your needs and within your budget. You may even be able to go multi-gigabit over existing wiring.</li>
-            </ul>Have a different modernization project in mind? Contact me today to discuss</p>
-    <h3 id="ups">Battery Back-Up (UPS) Servicing</h3>
-        <p>I've installed them all, an UPS big enough to run two racks worth of equipment down to a battery backup small enough to fit into the back of wall-mounted mini MPOE box.
+            </ul>Have a different modernization project in mind? Contact me today to discuss</p> -->
+    </div>
+    <div class="battery">
+        <div class="project-tile poppins-regular">
+            <h3 id="ups">Battery Back-Up (UPS) Servicing</h3>
+        </div>
+        <a href="#"><img class="project-img" alt="image of an uninterruptable power supply or battery backup" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs3.amazonaws.com%2Fimages.ecwid.com%2Fimages%2F1107006%2F951607773.jpg&f=1&nofb=1&ipt=6b736dd8b77fb633f5a198b28759f145a914f3d82c12bcdfa0a73b50347235eb&ipo=images"/></a>
+   
+        <!-- <p>I've installed them all, an UPS big enough to run two racks worth of equipment down to a battery backup small enough to fit into the back of wall-mounted mini MPOE box.
             <ul> 
                 <li>Install / Inspect uninterrupted power supply (UPS) battery back-ups</li>
                 <li>Replace just the battery for an additional 3-5 years on your existing UPS</li>
                 <li>Replace UPS that are past the manufacturer's recommended service life</li>
             </ul>  Have another UPS project? Let me know.
-        </p>
-    <h3 id="webinar">Technical Direction and Coaching for Webinar Presenters</h3>
-        <p>I've been the Technical Director for All-Hands meetings broadcasting to over a thousand employees worldwide in over a dozen offices. I've also coached many people who are experts in their field but Zoom newbies to look their best, sound wonderful and feel confident that I've tought them all the best practices for being a rock star meeting or webinar host.
+        </p> -->
+    </div>
+    <div class="webinar">
+        <div class="project-tile poppins-regular">
+            <h3 id="webinar">Technical Direction and Coaching for Webinar Presenters</h3>
+        </div>
+        <a href="#"><img class="project-img" src="https://cdn.pixabay.com/photo/2020/05/17/22/49/online-meeting-5183791_1280.jpg"/></a>
+        <!-- <p>I've been the Technical Director for All-Hands meetings broadcasting to over a thousand employees worldwide in over a dozen offices. I've also coached many people who are experts in their field but Zoom newbies to look their best, sound wonderful and feel confident that I've tought them all the best practices for being a rock star meeting or webinar host.
             <ul>
                 <li>Advises organizations on best practices for hosting meetings online</li>
                 <li>Right-sizing their Zoom account settings</li>
                 <li>Showing them the best hardware to augment their existing set-up</li>
                 <li>Walk them through dry runs of the meeting and then join the meeting quietly for the first 15 minutes to make sure that everything goes off without a hitch to provide a sense of comfort and security that any technical issues will be addressed immediately.</li>
              </ul>Do you want to be a Zoom rock star too? Email me today.
-        </p>
-    <h3 id="security">Identity and Access Security Review</h3>
-        <p>I've audited, provided recommendations for and implimented sweeping security upgrades while improving reliability and enhancing the user experience for organizations from 30 employees to 3,000.
+        </p> -->
+    </div>
+    <div class="security">
+        <div class="project-tile poppins-regular">
+            <h3 id="security">Identity and Access Security Review</h3>
+        </div>
+        <a href="#"><img class="project-img" src="https://cdn.pixabay.com/photo/2018/05/18/11/03/cyber-security-3410923_1280.jpg"/></a>
+        <!-- <p>I've audited, provided recommendations for and implimented sweeping security upgrades while improving reliability and enhancing the user experience for organizations from 30 employees to 3,000.
             <ul>
                 <li>Review security configurations in all key apps</li>
                 <li>Modernize the central identity provider, if appropriate</li>
                 <li>Reviews all multi-factor authorization settings to ensure that the industry leading recommendations are followed for best practices to secure all company accounts</li>
             </ul>Do you have a nagging feeling that your intellectual property isn't sufficiently secure? I can help give you peace of mind.
-        </p>
-</body>
-<hr>
-<h3 id="testimonials">Testimonials</h3>
-<p>“As a director of a small non-profit, I knew we needed to move towards Zoom conferences and training programs. But our budget didn't allow for a tech position. Bryleigh provided the perfect solution. Help when and where needed, and the expertise to get us to the next level of professionalism. And Bryleigh went way beyond that. Her genuine enthusiasm and ability to hit upon the perfect solution, within our budget, was astounding. Our entire staff feels more confident and energized, and our clients are more engaged. If you are embarking on an IT project, I would say you can't afford to not have Bryleigh with you.”</p>
-<div class="testimonial">- Janis Landis, Director of Final Exit Network</div>
-
-<p>“Bryleigh is a well rounded Global IT services manager with the expertise of managing a global IT team. She not only managed this team but also built it up and created a global support service center in India saving time and money on our service offerings. She has an amazing ability to talk and gain trust with internal and external customers explaining in a easy to understand way. She is also able to talk comfortably at all levels of the organization including supporting all Board of Director members. Her ability to work in high pressure situation is one of the best I have seen she always kept cool and calm and got the job done in growth and downturn situations. Great resource that you could not go wrong bringing her on to manage IT services.”</p>
-<div class="testimonial">- Kenny Gilbert, CIO Leader of InvenSense, Inc.</div>
-
-<p>“Bryleigh is a bright, knowledgeable and thorough IT pro - she knows her stuff. While I would prefer to get more "Yes's” from her, I always know where I stand and the rationalization behind her decision. She’s a pleasure to work with.”</p>
-<div class=”testimonial”>- Cam Roberson, Sales and Marketing Executive of Beachhead Solutions</div>
-<p>“Bryleigh Raethel is a top-notch expert. I was referred to Bryleigh by a colleague when my laptop was being pushed to the limit by demanding test tools and recording software. The instabilities I was facing stumped other "experts" that simply wasted my time, cost me money and caused further performance degradation. Bryleigh was very personable as she asked a series of consultive questions, took a lot of notes and sent me away. She said it shouldn't take long, but I'd barely finished a tall no-whip mocha when she called me to "come pick it up." It was running perfectly and I had no more problems. I recommend Bryleigh as a true professional with superlative skills.” </p>
-<div class=”testimonial”>- James Whitaker, Design Specialist</div>
-<p> “When I refer Bryleigh to my customers, they thank ME for the resource. She does a great job with not only the technical stuff, but also is a great communicator. Every time she does work for one of my customers they are in a good mood for days! So naturally, I refer her often.” </p>
-<div class=”testimonial”>- Thomas Pencek of Service for Profit</div>
-<p> “Bryleigh has been an effective component of our network operation. We depend greatly upon our ability to share database files and other network applications. As we are a small company without internal IT support, Bryleigh has been heroic in assisting us with our networking requirements. Bryleigh is very smart, highly motivated and very positive.” </p>
-<div class=”testimonial”>- - Alan Kornfield of Ombudsman Services of San Mateo County</div>
-<div id="linkedin">Check out my <a href="https://www.linkedin.com/in/itbryleigh">Linkedin Profile</a> for more details about my work history and experience.</div> 
-<hr>
-<footer>
-    <div>
-        <img src="images/RC-logo-footer.png" alt="Raethel Consulting Logo">
+        </p> -->
     </div>
-    <div class="email"><address><a href="mailto:bryleigh@raethel.com">bryleigh@raethel.com</a><div>650-810-6700</div></address>
-</footer>
+    </div>
+  </section>
+  <section id="testimonials" class="anchor">
+    <h3 class="page-heading playwrite-au-sa">Testimonials</h3>
+    <div class="testimonials architects-daughter-regular">
+      <p>“As a director of a small non-profit, I knew we needed to move towards Zoom conferences and training programs. But our budget didn't allow for a tech position. Bryleigh provided the perfect solution. Help when and where needed, and the expertise to get us to the next level of professionalism. And Bryleigh went way beyond that. Her genuine enthusiasm and ability to hit upon the perfect solution, within our budget, was astounding. Our entire staff feels more confident and energized, and our clients are more engaged. If you are embarking on an IT project, I would say you can't afford to not have Bryleigh with you.”</p>
+      <div class="customer playwrite-au-sa">- Janis Landis, Director of Final Exit Network</div>
+      <hr class="testimony-divider">
+      <p>“Bryleigh is a well rounded Global IT services manager with the expertise of managing a global IT team. She not only managed this team but also built it up and created a global support service center in India saving time and money on our service offerings. She has an amazing ability to talk and gain trust with internal and external customers explaining in a easy to understand way. She is also able to talk comfortably at all levels of the organization including supporting all Board of Director members. Her ability to work in high pressure situation is one of the best I have seen she always kept cool and calm and got the job done in growth and downturn situations. Great resource that you could not go wrong bringing her on to manage IT services.”</p>
+      <div class="customer playwrite-au-sa">- Kenny Gilbert, CIO Leader of InvenSense, Inc.</div>
+      <hr class="testimony-divider">
+      <p>“Bryleigh is a bright, knowledgeable and thorough IT pro - she knows her stuff. While I would prefer to get more "Yes's” from her, I always know where I stand and the rationalization behind her decision. She’s a pleasure to work with.”</p>
+      <div class="customer playwrite-au-sa">- Cam Roberson, Sales and Marketing Executive of Beachhead Solutions</div>
+      <hr class="testimony-divider">
+      <p>“Bryleigh is a top-notch expert. I was referred to Bryleigh by a colleague when my laptop was being pushed to the limit by demanding test tools and recording software. The instabilities I was facing stumped other "experts" that simply wasted my time, cost me money and caused further performance degradation. Bryleigh was very personable as she asked a series of consultive questions, took a lot of notes and sent me away. She said it shouldn't take long, but I'd barely finished a tall no-whip mocha when she called me to "come pick it up." It was running perfectly and I had no more problems. I recommend Bryleigh as a true professional with superlative skills.” </p>
+      <div class="customer playwrite-au-sa">- James Whitaker, Design Specialist</div>
+      <hr class="testimony-divider">
+      <p> “When I refer Bryleigh to my customers, they thank ME for the resource. She does a great job with not only the technical stuff, but also is a great communicator. Every time she does work for one of my customers they are in a good mood for days! So naturally, I refer her often.” </p>
+      <div class="customer playwrite-au-sa">- Thomas Pencek of Service for Profit</div>
+      <hr class="testimony-divider">
+      <p> “Bryleigh has been an effective component of our network operation. We depend greatly upon our ability to share database files and other network applications. As we are a small company without internal IT support, Bryleigh has been heroic in assisting us with our networking requirements. Bryleigh is very smart, highly motivated and very positive.” </p>
+      <div class="customer playwrite-au-sa">- Alan Kornfield of Ombudsman Services of San Mateo County</div>
+    </div>
+
+    <div id="linkedin">Check out my <a id="profile-link" target="_blank" href="https://www.linkedin.com/in/itbryleigh">Linkedin Profile</a> for more details about my work history and experience.</div> 
+  </section>
+  <footer id="contact" >
+      <div class="email"><address><a href="mailto:bryleigh@raethstein.com">bryleigh@raethstein.com</a><div>650-810-6700</div></address>
+  </footer>
+</body>
 </html>
