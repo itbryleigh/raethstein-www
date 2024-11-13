@@ -88,7 +88,6 @@ h2 {
 
 /* Navbar links */
 .topnav a {
-  float:left;
   color: #00008b;
   text-align: center;
   padding: 0.9rem 1.1rem;
@@ -99,6 +98,14 @@ h2 {
 .topnav a:hover {
   background-color: #00008b;
   color: #f2f2f2;
+}
+
+.logo {
+  height: 2.4rem;
+  width: auto;
+  position:absolute;
+  left: 3rem;
+  top: 0.4rem;
 }
 /* End navbar */
 
