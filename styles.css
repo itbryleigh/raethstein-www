@@ -89,7 +89,7 @@ h2 {
 .topnav a {
   color: #00008b;
   text-align: center;
-  padding: 0.9rem 1.1rem;
+  padding: 0.9rem 1rem;
   text-decoration: none;
   font-size: 1.2rem;
 }
@@ -148,6 +148,11 @@ h2 {
   border: 1px solid #00008b;
 }
 
+.about-text {
+  text-align: justify;
+  font-size: 1.3rem;
+}
+
 .email:hover {
   color: #5e17eb;
   text-shadow: 0 0 3px #FF0000;
@@ -168,12 +173,6 @@ h2 {
   font-weight: 400;
   margin: 2rem 4rem;
   font-size: 2rem;
-}
-
-.about-text {
-  text-align: justify;
-  margin: 0 40px;
-  font-size: 1.3rem;
 }
 
 #linkedin {
@@ -314,10 +313,6 @@ footer {
 /* Setting up media queries for screen size responsiveness */
 
 @media screen and (max-width: 910px) {
-  /* .project-title > h3 {
-      color: red;
-  } */
-
   [class*="col-"] {
     width: 100%;
     height: auto;
@@ -325,12 +320,19 @@ footer {
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
   html {
     font-size: 62.5% !important;
   }
   body {
     font-size: 1.6rem;
+  }
+  .logo {
+    height: 0;
+    width: 0;
+  }
+  .about {
+    padding: 2rem 2rem;
   }
 }
 
