@@ -82,12 +82,12 @@ h2 {
   overflow: hidden;
   background-color: #ddd;    
   width:100%;
-  border-bottom: 1px solid #00008b;
+  border-bottom: 1px solid #f284ad;
 }
 
 /* Navbar links */
 .topnav a {
-  color: #00008b;
+  color: #f284ad;
   text-align: center;
   padding: 0.9rem 1rem;
   text-decoration: none;
@@ -95,7 +95,7 @@ h2 {
 }
 
 .topnav a:hover {
-  background-color: #00008b;
+  background-color: #f284ad;
   color: #f2f2f2;
 }
 
@@ -113,7 +113,7 @@ h2 {
   width: 100%;
   text-align: center;
   padding-top: 40vh;
-  background-color: #00008b;
+  background-color: #f284ad;
 }
 
 .welcome>hr {
@@ -145,7 +145,7 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   border-radius: 100%;
-  border: 1px solid #00008b;
+  border: 1px solid #f284ad;
 }
 
 .about-text {
@@ -162,7 +162,7 @@ h2 {
   text-align: center;
   margin-bottom: 2rem;
   margin-top: 2rem;
-  color: #00008b;
+  color: #f284ad;
   font-size: 2.8rem;
   width: 100%;
   font-weight: bold;
@@ -179,7 +179,7 @@ h2 {
   font-weight: 300;
   margin-bottom: 1rem;
   text-align: center;
-  background-color: #00008b;
+  background-color: #f284ad;
   padding: 2rem 0;
   color: #F5F5F5;
   font-size: 1.2rem;
@@ -307,7 +307,7 @@ footer {
   font-size: 1.8rem;
   background-color: #bbb;
   padding-top: 2rem;
-  border-top: 1px solid #00008b;
+  border-top: 1px solid #f284ad;
 }
 
 /* Setting up media queries for screen size responsiveness */
